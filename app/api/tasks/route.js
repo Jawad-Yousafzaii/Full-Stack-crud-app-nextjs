@@ -1,5 +1,5 @@
 import dbConnect from '../../../lib/dbConnect';
-import Task from '../../../app/models/Task';
+import Task from '../../models/Task';
 
 export async function GET(request) {
   await dbConnect(); 
